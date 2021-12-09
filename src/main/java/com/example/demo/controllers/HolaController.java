@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HolaController {
 	
 	/*
-	 * Nuevo comentario
+	 * Nuevo comentario en rama test
 	 */
 	
 	@GetMapping(value={"/hola" , "/"})
@@ -17,4 +17,5 @@ public class HolaController {
 		model.addAttribute("mensaje", "Hola");
 		return "index";
 	}
+	
 }
