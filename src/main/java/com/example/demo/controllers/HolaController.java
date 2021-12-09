@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HolaController {
 	
+	/*
+	 * Nuevo comentario
+	 */
 	
 	@GetMapping(value={"/hola" , "/"})
 	public String saludar(Model model) {
